@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie seat Bokking</title>
+    <!--linking css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--linking google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Nanum+Gothic:wght@400;700;800&family=Nunito:wght@400;600;700&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!--linking remix icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <!--set main icon for page-->
+    <link rel="icon" href="./images/Aviation_unicorn-512.webp">
+</head>
+<body>
+    <div class="movie-container">
+        <label >pick a movie u want  </label>
+        <select id="movie">
+            <option value="10">x-لارج (10EG)</option>
+            <option value="12">1000 مبروك (12EG)</option>
+            <option value="8">تيته رهيبه (8EG)</option>
+            <option value="9">بلبل حيران(9EG)</option>
+        </select>
+    </div>
+    <ul class="showcase">
+     <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+     </li>
+     <li>
+        <div class="seat selected"></div>
+        <small>selected</small>
+     </li>
+     <li>
+        <div class="seat occupied"></div>
+        <small>occupied</small>
+     </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">You have selected <span id="count">0</span>Total price for selected seats  $ <span id="total">0</span></p>
+    <script src="./js/main.js"></script>
+</body>
+</html>
